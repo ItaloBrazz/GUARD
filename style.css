@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo-e-texto {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.header-texto img {
+    height: 40px;
+}
+
+.menu a {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    color: #33A8DC;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.inicio-img img {
+    width: 100%; 
+    height: 150%;
+    display: block;
+    object-fit: cover;
+}
+
+.text-inicio-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.text-inicio-img h1 {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0;
+}
+
+.text-inicio-img p {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin: 10px 0 0;
+}
+
+.index-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    background: linear-gradient(180deg, #FFFFFF , #CAE2FB, #CAE2FB, #CAE2FB, #CAE2FB, #CAE2FB);
+    height: 1500px;
+    width: 100%;
+}
+
+.index-about-us h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #00405C;
+    text-align: center;
+}
+
+#italofudido{
+    color:#00405C;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 36px;
+    width: 58%;
+}
+
+.images-about-us img{
+    width: 229px;
+    height: 215px;
+    gap: 150px;
+    margin-bottom: 400px;
+}
