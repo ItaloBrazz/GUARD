@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+.building img{
+    width: 70%;
+}
+
+.building h1{
+    display: flex;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
