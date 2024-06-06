@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     background-color: #FFFFFF;
     padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo-e-texto {
@@ -146,7 +146,7 @@ header {
     font-size: 30px;
 }
 
-.buttom-saibamais{
+.button-saibamais{
     background-color: #FFFFFF;
     color: #00405C;
     font-family: "Montserrat", sans-serif;
@@ -161,15 +161,59 @@ header {
     margin-top: 130px;
 }
 
-.buttom-saibamais:hover {
+.button-saibamais:hover {
     background-color: #FFFFFF;
 }
 
 .atual-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 70px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 35px;
     color: #00405C;
     text-align: center;
+}
+
+#not-tablet{
+    margin-top: 130px;
+}
+
+.atual-projetos p{
+    margin-top: 120px;
+    color:#00405C;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 40px;
+    width: 60%;
+}
+
+.button-saibamais2{
+    background-color: #CAE2FB;
+    color: #00405C;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border: 2px solid #CAE2FB;
+    width: 500px;
+    border-radius: 8px; 
+    padding: 30px 20px; 
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 130px;
+}
+
+.button-saibamais2:hover {
+    background-color: #CAE2FB;
+}
+
+footer{
+    margin-top: 70px;
+    background-color: #CAE2FB;
+    height: 180px;
+    width: 100%;
 }
