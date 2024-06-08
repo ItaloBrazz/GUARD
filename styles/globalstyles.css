@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.building img{
+    width: 70%;
+}
+
+.building h1{
+    display: flex;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo-e-texto {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.header-texto img {
+    height: 40px;
+}
+
+.menu a {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    color: #33A8DC;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.footer {
+    background-color: #CAE2FB;
+    color: #00405C;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    width: 30%;
+}
+
+.footer-info img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    width: 40%;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #00405C;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-newsletter {
+    width: 30%;
+}
+
+.footer-newsletter h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-newsletter button[type="submit"] {
+    background-color: #33A8DC;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 12px;
+}

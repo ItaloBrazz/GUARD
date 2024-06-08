@@ -1,0 +1,42 @@
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 120px;
+    width: 100%;
+    background-color: #f4f4f4;
+    gap: 150px;
+}
+
+.ibagem img {
+    width: 750px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.text {
+    padding-top: 20px;
+    margin-right: 50px;
+
+}
+
+.section1 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #00405C;
+    margin-bottom: 20px;
+}
+
+.section1 p {
+    color: #00405C;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: center;
+    width: 800px;
+}
+
